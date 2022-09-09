@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo-footer.svg" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="font-grotesk">Profex</title>
+  </head>
+  <body
+    class="bg-backgroundBlue font-grotesk bg-[url('background.svg')] bg-scroll bg-no-repeat bg-cover overflow-x-hidden"
+  >
+    <!--Navbar  -->
+    <nav class="flex items-center justify-between m-10">
+      <div class="flex flex-row items-center text-white">
+        <img
+          src="../svg/logo.svg"
+          alt="logo"
+          class="w-[4rem] h-[4rem] cursor-pointer"
+        />
+        <div class="hidden md:flex items-center ml-20 space-x-8">
+          <a href="#" class="text-base md:text-2xl capitalize link-text">
+            Home
+          </a>
+          <a href="#" class="text-base md:text-2xl capitalize link-text">
+            App
+          </a>
+          <a href="#" class="text-base md:text-2xl capitalize link-text">
+            Contact
+          </a>
+        </div>
+        <div
+          id="links"
+          class="flex flex-col md:hidden text-left absolute top-0 left-0 bg-backgroundBlue space-y-5 h-auto transition-all ease-linear duration-1000 w-full z-10 p-4"
+        >
+          <a href="#" class="text-base md:text-2xl capitalize link-text w-auto">
+            Home
+          </a>
+          <a href="#" class="text-base md:text-2xl capitalize link-text w-auto">
+            App
+          </a>
+          <a href="#" class="text-base md:text-2xl capitalize link-text w-auto">
+            Contact
+          </a>
+        </div>
+      </div>
+      <div class="">
+        <a
+          href="#"
+          class="bg-transparent border border-gray-400 text-white text-base md:text-2xl rounded-lg p-4"
+        >
+          Buy PROFEX</a
+        >
+        <button class="space-y-[0.30rem] ml-3 md:hidden" id="btn">
+          <div class="w-6 h-[2px] bg-white menu-1"></div>
+          <div class="w-6 h-[2px] bg-white menu-2"></div>
+          <div class="w-6 h-[2px] bg-white menu-3"></div>
+        </button>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <main class="mx-5 md:mx-10 lg:mx-40">
+      <!-- Hero -->
+      <div data-aos="slide-left" class="box mt-10">
+        <div class="box-container">
+          <div class="glass p-10">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="800"
+              class="w-full flex flex-col md:flex-row items-center justify-between"
+            >
+              <div class="text-white w-full md:w-[45%]">
+                <h1 class="text-3xl font-semibold">
+                  PROFEX - Professor Exchange
+                </h1>
+                <p class="text-left my-10">
+                  We are a cross-chain decentralised exchange founded on
+                  blockchain technology, which is a decentralised and
+                  irreversible ledger that enables peer-to-peer cryptocurrency
+                  transactions and networking. By adopting decentralised finance
+                  solutions, we hopes to transform the world of financial
+                  transactions.
+                </p>
+                <button
+                  class="bg-gradient-to-r from-blue to-pink rounded-lg px-5 py-3 text-white text-base hover:from-pink hover:to-blue hover:transition-all hover:duration-[3000] hover:ease-linear"
+                >
+                  Whitepaper
+                </button>
+              </div>
+              <img src="../svg/flow_tree.svg" alt="Flow tree" class="w-1/2 h-1/2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of hero -->
+
+      <div class="my-32">
+        <h2 class="text-center text-white text-2xl m-10 mb-20">
+          By adopting decentralised finance solutions, PROFEX hopes to transform
+          the world of financial transactions.
+        </h2>
+        <div
+          class="grid grid-rows-3 md:grid-cols-2 md:grid-rows-1 lg:grid-cols-3 gap-20 mt-10"
+        >
+          <!-- card component -->
+          <div data-aos="fade-up" data-aos-delay="10" class="box">
+            <div class="box-container">
+              <div class="glass">
+                <div
+                  class="flex items-center justify-between flex-col p-10 space-y-10 flex-1"
+                >
+                  <img
+                    src="../svg/credit_card.svg"
+                    alt="credit_card_ill"
+                    class="w-[80%] self-start"
+                  />
+                  <p class="text-white text-base self-end">
+                    The interoperability of blockchains is critical since it
+                    will make it easier for individuals to transact on other
+                    blockchains effortlessly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- card component -->
+          <div data-aos="fade-up" data-aos-delay="1000" class="box">
+            <div class="box-container">
+              <div class="glass">
+                <div
+                  class="flex items-center justify-between flex-col p-10 space-y-10 flex-1"
+                >
+                  <img
+                    src="../svg/search.svg"
+                    alt="credit_card_ill"
+                    class="w-[80%] self-start"
+                  />
+                  <p class="text-white text-base self-end">
+                    PROFEX is addressing the issue of divergent blockchains that
+                    are unable to connect with eachother. Leading to users,
+                    data, and liquidity being dispersed among applications
+                    deployed on separate chains.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- card component -->
+          <div data-aos="fade-up" data-aos-delay="1500" class="box">
+            <div class="box-container">
+              <div class="glass">
+                <div
+                  class="flex items-center justify-between flex-col p-10 space-y-10 flex-1"
+                >
+                  <img
+                    src="../svg/message.svg"
+                    alt="credit_card_ill"
+                    class="w-[80%] self-start"
+                  />
+                  <p class="text-white text-base self-end">
+                    We are a omnichain interoperability protocol platform that
+                    allows multiple blockchains to communicate with one another.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+
+        <!--  -->
+        <div class="my-32">
+          <h2
+            data-aos="slide-up"
+            class="text-center text-white text-3xl m-10 font-bold"
+          >
+            What do we do and How do we do it
+          </h2>
+          <div
+            class="flex flex-col md:flex-row items-center justify-between flex-wrap self-start"
+          >
+            <div
+              data-aos="slide-down"
+              data-aos-delay="00"
+              class="w-full md:w-[45%] text-white text-xl md:text-base text-center md:text-left ml-0 md:ml-10"
+            >
+              <p>
+                The cross-chain protocol guarantees across blockchains, allowing
+                for the flow of currency and information between different
+                networks. Together with the advantages of public decentralised
+                networks, such protocols should set the groundwork for
+                widespread blockchain acceptance and use.
+              </p>
+              <br />
+              <br />
+              <p>
+                Interoperability enables various blockchains to connect without
+                the use of middlemen. This means that blockchains with similar
+                networks will be capable of transferring value to one another.
+              </p>
+            </div>
+            <div
+              data-aos="zoom-out"
+              data-aos-delay="500"
+              class="box mt-32 md:mt-0 w-full md:w-1/2 md:h-1/2"
+            >
+              <div class="box-container">
+                <div class="glass">
+                  <div class="flex items-center justify-center p-10">
+                    <img src="../svg/flow_graph.svg" alt="flow_graph" class="w-1/2" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div data-aos="zoom-in" class="flex flex-col items-center">
+        <h1 class="text-4xl font-bold text-white text-center">Get connected</h1>
+        <div class="flex items-center space-x-16 justify-center my-10">
+          <a href="#">
+            <img src="../svg/discord.svg" alt="discord" class="w-[40px]" />
+          </a>
+          <a href="#">
+            <img src="../svg/instagram.svg" alt="instagram" class="w-[40px]" />
+          </a>
+          <a href="#">
+            <img src="../svg/facebook.svg" alt="facebook" class="w-[19px]" />
+          </a>
+          <a href="#">
+            <img src="../svg/telephone.svg" alt="telephone" class="w-[23px]" />
+          </a>
+          <a href="#">
+            <img src="../svg/twitter.svg" alt="twitter" class="w-[40px]" />
+          </a>
+        </div>
+        <h1 class="text-3xl font-bold text-white text-center my-10">
+          Subscribe for newsletter
+        </h1>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          class="border-none p-3 text-white bg-gray-600 outline-hidden mx-auto flex items-center w-[60vw] md:w-[40vw] focus:outline-none"
+        />
+        <button
+          class="bg-gradient-to-r from-blue to-pink rounded-xl px-20 py-3 text-white text-base mt-10"
+        >
+          Subscribe
+        </button>
+      </div>
+      <!--  -->
+
+      <div data-aos="zoom-out" data-aos-delay="1000" class="my-20 select-none">
+        <h1 class="text-5xl md:text-8xl text-white text-center mb-10">
+          Roadmap
+        </h1>
+        <div class="mx-auto flex items-center">
+          <img
+            src="../svg/roadmap.svg"
+            alt="roadmap"
+            class="hidden mx-auto md:flex items-center lg:max-w-[60vw]"
+          />
+          <img src="../svg/roadmap-mobile.svg" alt="roadmap" class="block md:hidden" />
+        </div>
+      </div>
+      <!--  -->
+
+      <div class="my-20 select-none">
+        <h1 class="text-5xl md:text-8xl text-white text-center mb-10">
+          Tokenomics
+        </h1>
+        <div class="box">
+          <div class="box-container">
+            <div class="glass">
+              <div
+                data-aos="fade"
+                class="flex flex-col md:flex-row items-center justify-between"
+              >
+                <div class="text-white text-sm md:text-base md:text-left p-10">
+                  <h2>Name: Professor Exchange</h2>
+                  <h2>Symbol: Profex</h2>
+                  <h2>Total amount: 1,000,000,000</h2>
+
+                  <h2>Decimals: 18</h2>
+                  <h2>Fees:</h2>
+                  <ul class="list-disc ml-4">
+                    <li>Burn: 2.5%</li>
+                    <li>Marketing: 2.5</li>
+                    <li>development: 2.5%</li>
+                    <li>auto liquidity: 2.5% (Every 1M tokens)</li>
+                  </ul>
+                  <h2 class="">
+                    Marketing & development Wallet:
+                    0x8C9FF25a894f0CA8A346378F010203335AB390c9
+                  </h2>
+                </div>
+                <div
+                  data-aos="fade"
+                  data-aos-delay="1000"
+                  class="w-[60%] md:w-[40%]"
+                >
+                  <img src="../svg/graph.svg" alt="graph" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </main>
+    <footer
+      data-aos="fade"
+      data-aos-delay="100"
+      data-aos-once="true"
+      class="text-center flex flex-col items-center py-4 md:py-10 mt-5 glass space-y-4"
+    >
+      <a href="#"
+        ><img
+          src="../svg/logo-footer.svg"
+          alt="logo"
+          class="w-[4rem] h-[4rem] cursor-pointer"
+      /></a>
+      <h1 class="text-xl md:text-3xl text-white">
+        Copyright © 2022 PROFEX - Professor Exchange
+      </h1>
+      <div
+        class="flex items-center space-y-1 md:space-y-0 space-x-0 md:space-x-10 flex-col md:flex-row justify-center text-white text-center"
+      >
+        <a href="#" class="text-center">Privacy Policy</a>
+        <div class="bg-white w-[30px] h-[2px] md:h-[20px] md:w-[2px]"></div>
+        <a href="#">Terms & Conditions</a>
+        <div class="bg-white w-[30px] h-[2px] md:h-[20px] md:w-[2px]"></div>
+        <a href="#">Whitepaper</a>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        useClassNames: true,
+      });
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            roboto: ["Roboto Mono", " monospace"],
+            grotesk: ["Space Grotesk", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              backgroundBlue: "#061443",
+              pink: "#E35BE6",
+              blue: "#01B2FF",
+              white: "#FFFFFF",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
